@@ -26,7 +26,7 @@ Access clean, AI-suggested resume formats optimized for recruiter systems.
 --> **Set API Key**  
    Get your free Groq API key from [Groq Console](https://console.groq.com) and add it to your `.env` file:
    ```env
-   GROQ_API_KEY=your_groq_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
 Launch the App
 git clone https://github.com/your-username/JobWise_ATS_Analyzer.git
 cd JobWise_ATS_Analyzer
