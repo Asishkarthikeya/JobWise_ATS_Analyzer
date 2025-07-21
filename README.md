@@ -23,7 +23,7 @@ Access clean, AI-suggested resume formats optimized for recruiter systems.
 
 ## 🚀 How to Use
 
-1. **Set API Key**  
+--> **Set API Key**  
    Get your free Groq API key from [Groq Console](https://console.groq.com) and add it to your `.env` file:
    ```env
    GROQ_API_KEY=your_groq_api_key_here
