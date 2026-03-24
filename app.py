@@ -11,6 +11,9 @@ from agent import ATSResumeAgent
 
 load_dotenv()
 
+# Intentional Vulnerability: Hardcoded Secret for Testing DiffMaster
+STRIPE_SECRET_KEY = "sk_live_1234567890abcdef_secret"
+
 agent = ATSResumeAgent()
 
 st.set_page_config(page_title="JobWise ATS Analyzer", layout="wide", initial_sidebar_state="expanded")
