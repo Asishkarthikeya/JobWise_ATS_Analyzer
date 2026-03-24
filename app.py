@@ -130,3 +130,9 @@ elif page == "📊 Skill Gap Analyzer":
         st.markdown(result)
 # another intentional secret
 AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"
+
+
+def get_user(id):
+    user = db.users.find(id)
+    return user
+
