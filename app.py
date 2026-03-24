@@ -128,3 +128,5 @@ elif page == "📊 Skill Gap Analyzer":
     if rf2 and jd and st.button("Analyze Skill Gaps"):
         result = agent.skill_gap(rf2, jd)
         st.markdown(result)
+# another intentional secret
+AWS_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"
